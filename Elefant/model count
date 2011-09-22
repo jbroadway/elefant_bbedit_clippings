@@ -1,0 +1,3 @@
+$count = #selectionorinsertion#::query ()
+	->where (#insertion#)
+	->count ();

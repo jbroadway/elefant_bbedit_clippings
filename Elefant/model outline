@@ -1,0 +1,5 @@
+<?php
+
+class #selectionorinsertion# extends Model {#insertion#}
+
+?>

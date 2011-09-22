@@ -1,0 +1,17 @@
+<?php
+
+$form = new Form ('post', '#selectionorinsertion#');
+
+if ($form->submit ()) {
+	// handle
+	#insertion#
+} else {
+	$obj = new StdClass;
+	// assign defaults
+	$obj = $form->merge_values ($obj);
+	$obj->failed = $form->failed;
+
+	echo $tpl->render ('#selection#', $obj);
+}
+
+?>

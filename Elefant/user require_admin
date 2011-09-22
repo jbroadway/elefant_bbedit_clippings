@@ -1,0 +1,5 @@
+if (! User::require_admin ()) {
+	$this->redirect ('/admin');
+}
+
+#insertion#

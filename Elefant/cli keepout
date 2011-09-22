@@ -1,0 +1,5 @@
+if (! $this->cli) {
+	die ('Must be run from cli');
+}
+
+#insertion#

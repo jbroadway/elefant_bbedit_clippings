@@ -1,0 +1,4 @@
+if (! #selectionorinsertion#) {
+	echo $this->error (404, '#insertion#', '');
+	return;
+}

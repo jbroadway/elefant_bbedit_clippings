@@ -1,0 +1,5 @@
+if (! $this->internal) {
+	die ('Must be called by another handler');
+}
+
+#insertion#

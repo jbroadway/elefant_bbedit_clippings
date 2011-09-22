@@ -1,0 +1,1 @@
+echo $tpl->render ('#selectionorinsertion#', array (#insertion#));

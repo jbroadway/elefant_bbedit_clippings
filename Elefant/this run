@@ -1,0 +1,1 @@
+echo $this->run ('#selectionorinsertion#', array (#insertion#));

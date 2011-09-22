@@ -1,0 +1,7 @@
+if (! User::require_login ()) {
+	$page->title = i18n_get ('Members');
+	echo $this->run ('user/login');
+	return;
+}
+
+#insertion#
